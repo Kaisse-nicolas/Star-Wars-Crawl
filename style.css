@@ -13,3 +13,13 @@ color: white;
 h1{
   color: blue;
 }
+
+p{
+  animation-name: autoscroll;
+  animation-duration: 10s;
+}
+
+@keyframes autoscroll {
+  from{ transform: translateY(0)}
+  to {transform: translateY(-1000px)}
+}
