@@ -1,4 +1,5 @@
 *{
+  perspective: 400px;
   text-align: center;
   margin-top:2px;
   margin-right:100px;
@@ -9,7 +10,14 @@
 body{
 background-image: url("starwars.jpg");
 color: white;
+transform: rotate3d(1,0,0,15deg);
+animation:autoscroll 1000s linear;
 }
 h1{
   color: blue;
 }
+
+@keyframes autoscroll{
+    to{
+        margin-top: -50000px;
+      }
