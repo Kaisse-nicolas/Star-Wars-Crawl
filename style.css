@@ -1,0 +1,15 @@
+*{
+  text-align: center;
+  margin-top:2px;
+  margin-right:100px;
+  margin-bottom:2em;
+  margin-left:100px;
+
+}
+body{
+background-image: url("starwars.jpg");
+color: white;
+}
+h1{
+  color: blue;
+}
